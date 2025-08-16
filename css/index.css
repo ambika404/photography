@@ -245,6 +245,9 @@ ul li{
     background-color: #686868;
     color: #F4F4F4;
 }
+.left img:hover{
+    filter: brightness(50%);
+}
 @media screen and (max-width:1199px){
     .main-part{
         display: flex;
@@ -286,6 +289,9 @@ ul li{
     justify-content: space-between;
     padding-top: 30px;
     /* justify-content: space-between; */
+}
+.card-part .col:hover{
+    box-shadow: 0 0 10px #000000;
 }
 .card-part h5{
     font-size: 60px;
@@ -347,6 +353,12 @@ ul li{
     width: 500px;
     padding: 40px 10px;
     border: 1px solid #363636;
+}
+.right-part:hover{
+    box-shadow: 0 0 10px #000000;
+}
+.right-part img:hover{
+    transform: scale(1.3);
 }
 .artistic h4{
     color: #686868;
@@ -469,6 +481,12 @@ ul li{
 }
 .two-part{
     margin-right: 30px;
+}
+.two-part img:hover{
+    filter: brightness(50%);
+}
+.three img:hover{
+    filter: brightness(50%);
 }
 .view{
     background-color: #E9E1D9;
@@ -760,6 +778,10 @@ label{
     font-size: 20px;
     font-family: "Cormorant Garamond", serif;
     color: #F5F5F5;
+}
+.shoot img:hover{
+    filter: brightness(50%);
+    box-shadow: 0 0 10px #B58B61;
 }
 @media screen and (max-width:1199px){
     .contact .row{
